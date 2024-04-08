@@ -2,7 +2,7 @@
 //
 
 // C++ program to illustrate
-// strcpy() function in C/C++
+//  strcpy() function in C/C++
 
 
 
