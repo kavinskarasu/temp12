@@ -20,19 +20,19 @@
 //   [out]               LPPROCESS_INFORMATION lpProcessInformation
 // );
 
-BOOL CreateProcessAsUserW                                      (
-  [in, optional]      HANDLE                hToken,
-  [in, optional]      LPCWSTR               lpApplicationName,
-  [in, out, optional] LPWSTR                lpCommandLine,
-  [in, optional]      LPSECURITY_ATTRIBUTES lpProcessAttributes,
-  [in, optional]      LPSECURITY_ATTRIBUTES lpThreadAttributes,
-  [in]                BOOL                  bInheritHandles,
-  [in]                DWORD                 dwCreationFlags,
-  [in, optional]      LPVOID                lpEnvironment,
-  [in, optional]      LPCWSTR               lpCurrentDirectory,
-  [in]                LPSTARTUPINFOW        lpStartupInfo,
-  [out]               LPPROCESS_INFORMATION lpProcessInformation
-);
+// BOOL CreateProcessAsUserW                                      (
+//   [in, optional]      HANDLE                hToken,
+//   [in, optional]      LPCWSTR               lpApplicationName,
+//   [in, out, optional] LPWSTR                lpCommandLine,
+//   [in, optional]      LPSECURITY_ATTRIBUTES lpProcessAttributes,
+//   [in, optional]      LPSECURITY_ATTRIBUTES lpThreadAttributes,
+//   [in]                BOOL                  bInheritHandles,
+//   [in]                DWORD                 dwCreationFlags,
+//   [in, optional]      LPVOID                lpEnvironment,
+//   [in, optional]      LPCWSTR               lpCurrentDirectory,
+//   [in]                LPSTARTUPINFOW        lpStartupInfo,
+//   [out]               LPPROCESS_INFORMATION lpProcessInformation
+// );
 
 
  
@@ -43,7 +43,7 @@ using namespace std;
 int main()
 {
 	// Strings Declared
-	 char str1[] = "Hello Geeks!";
+	 char str1[] =  "Hello Geeks!";
 	char str2[] = "GeeksforGeeks";
 
 	char str3[40];
