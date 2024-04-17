@@ -20,7 +20,7 @@
 //   [out]               LPPROCESS_INFORMATION lpProcessInformation
 // );
 
- //  BOOL CreateProcessAsUserW                                      (
+//   BOOL CreateProcessAsUserW                                      (
 //   [in, optional]      HANDLE                hToken,
 //   [in, optional]      LPCWSTR               lpApplicationName,
 //   [in, out, optional] LPWSTR                lpCommandLine,
